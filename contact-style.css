@@ -1,0 +1,81 @@
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.go-back i{
+    font-size: 35px;
+    color: rgb(186, 48, 101);
+    transition: color 0.3s;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.go-back i:hover{
+    color: rgb(181, 17, 80);
+    opacity: 1;
+}
+
+.contactus{
+    color: rgb(186, 48, 101);
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Bellota Text';
+    font-size: 24px;
+}
+
+#heading{
+    font-size: 18px;
+}
+
+.container{
+    margin: 1rem;
+    padding: 20px;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+.float-child{
+    display: inline-block;
+    padding: 0px;
+    vertical-align: middle;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-family: 'Bellota Text';
+    color: rgb(186, 48, 101);
+}
+
+#fname, #lname, #email{
+    width: 450px;
+    height: 30px;
+    border: 1px solid rgb(166, 166, 166);
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #8f8f8f;
+    background-color: white;
+}
+
+#message{
+    width: 450px;
+    height: 150px;
+    border: 1px solid rgb(166, 166, 166);
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #8f8f8f;
+    background-color: white;
+}
+
+h3{
+    letter-spacing: 3px;
+}
+
+#sarajevo, #mostar, #banjaluka{
+    font-weight: 900;
+}
